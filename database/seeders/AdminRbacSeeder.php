@@ -16,7 +16,7 @@ use Spatie\Permission\PermissionRegistrar;
 
 class AdminRbacSeeder extends Seeder
 {
-    private const ADMIN_GUARD = ' admin';
+    private const ADMIN_GUARD = 'admin';
 
     private const DEFAULT_BOOTSTRAP_NAME = 'Admin';
 
